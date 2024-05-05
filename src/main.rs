@@ -215,7 +215,7 @@ pub fn main() {
                         ..
                     } => {
                         if vehicles.len() < 16 {
-                            vehicles.push(Vehicule::new("left"));
+                            vehicles.push(Vehicule::new("right"));
                         }
                     }
                     Event::KeyDown {
@@ -223,7 +223,7 @@ pub fn main() {
                         ..
                     } => {
                         if vehicles.len() < 16 {
-                            vehicles.push(Vehicule::new("right"));
+                            vehicles.push(Vehicule::new("left"));
                         }
                     }
                     Event::KeyDown {
